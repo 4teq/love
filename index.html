@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="bootstrap-icons/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link rel="stylesheet" href="css/index.css">
   <title>Document</title>
 </head>
@@ -41,7 +42,12 @@
   <main>
     <article class="stories row">
       <section class="card">
-        <img class="card__img" src="images/hot_air_balloons.jpg" alt="hot_air_balloons">
+        <img class="card__img"
+        srcset="images/landing/hot_air_balloons_sm.jpg  640w, 
+        images/landing/hot_air_balloons_md.jpg 1024w, 
+        images/landing/hot_air_balloons_lg.jpg 1920w" 
+        src="images/landing/hot_air_balloons_md.jpg" 
+        alt="hot_air_balloons">
         <div class="card__body">
           <h2 class="card__body__header">Stories of love in the sky</h2>
           <p class="card__body__text">
@@ -52,7 +58,9 @@
         </div>
       </section>
       <section class="card">
-        <img class="card__img" src="images/cloud_sky.jpg" alt="cloud_sky">
+        <img class="card__img" src="images/landing/cloud_sky_md.jpg" 
+        srcset="images/landing/cloud_sky_small.jpg 640w, images/landing/cloud_sky_md.jpg 1024w, 
+        images/landing/cloud_sky_lg.jpg 1920w" alt="cloud_sky">
         <div class="card__body">
           <h2 class="card__body__header">Words of love</h2>
           <p class="card__body__text">
@@ -64,7 +72,9 @@
     </article>
     <article class="cta-row">
       <section class="card">
-        <img class="card__img pull" src="images/couples_flying.jpg" alt="couples_flying">
+        <img class="card__img pull" src="images/couples_flying.jpg" srcset="images/landing/couples_flying_sm.jpg 640w, 
+          images/landing/couples_flying_md.jpg 1024w,
+         images/landing/couples_flying_lg.jpg 1920w" alt="couples_flying">
         <div class="card__body">
           <h2 class="card__body__header">Join the love journey</h2>
           <p class="card__body__text">

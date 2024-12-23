@@ -569,7 +569,7 @@ header {
 }
 
 .hero {
-  background-image: url(../images/sunset-love-beach.jpg);
+  background-image: url(../images/landing/sunset-love-beach_hero_sm.jpg);
   background-color: rgba(0, 0, 0, 0.4);
   background-blend-mode: multiply;
   background-size: cover;
@@ -579,6 +579,12 @@ header {
 @media (min-width: 576px) {
   .hero {
     min-height: 85vh;
+    background-image: url(../images/landing/sunset-love-beach_hero_md.jpg);
+  }
+}
+@media (min-width: 992px) {
+  .hero {
+    background-image: url(../images/landing/sunset-love-beach_hero_lg.jpg);
   }
 }
 
@@ -698,13 +704,23 @@ header {
 }
 
 .footer {
-  background-image: url(../images/love_story_1.jpg);
+  background-image: url(../images/landing/love_story_1_sm.jpg);
   background-size: cover;
   background-color: rgba(253, 240, 213, 0.7);
-  background-position: right top;
+  background-position: center top;
   background-blend-mode: multiply;
   color: #FFFFFF;
   padding: 2rem 1rem;
+}
+@media (min-width: 576px) {
+  .footer {
+    background-image: url(../images/landing/love_story_1_md.jpg);
+  }
+}
+@media (min-width: 992px) {
+  .footer {
+    background-image: url(../images/landing/love_story_1_lg.jpg);
+  }
 }
 
 @media (min-width: 576px) {
