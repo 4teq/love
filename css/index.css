@@ -330,17 +330,21 @@ img {
 }
 
 :root {
-  font-size: calc(0.5rem + 1vw);
-}
-@media (min-width: 864px) {
-  :root {
-    font-size: 1.15em;
-  }
+  font-size: 16px;
 }
 
 body {
   line-height: 1.5;
   letter-spacing: 0.01em;
+  font-family: Roboto, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+}
+
+p {
+  font-size: 1rem;
+}
+
+.fit-content {
+  max-width: fit-content;
 }
 
 .navbar {
